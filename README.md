@@ -3,6 +3,7 @@ APIs to check for evaluation.
 
 ## Booking APIs
 /restaurant/booking/
+
 /restaurant/booking/tables/
 
 ## Menu API
