@@ -14,7 +14,7 @@ urlpatterns = [
     path('menu/<int:pk>', SingleMenuItemView.as_view(), name='menu-detail'),
 
     # API Token authentication view
-   # path('api-token-auth/', obtain_auth_token, name='api-token-auth'),
-    #path('api-auth/', include('rest_framework.urls')),
+    path('api-token-auth/', obtain_auth_token, name='api-token-auth'),
+    path('api-auth/', include('rest_framework.urls')),
 
 ]
